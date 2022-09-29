@@ -1,0 +1,34 @@
+.Affiliate{
+    margin-top: 80px;
+    .roundCnt{
+        background-color: var(--primary);
+        border-radius: 10px;
+        color:white;
+        display: block; 
+        padding: 0.2em 1em;
+    }
+    #tabContainer1{
+        display: block;
+    }
+    #tabContainer2{
+        display: block;
+    }
+    .tabbar{
+       display: block;
+        text-align: center;
+    }
+    .tabmenu{ 
+        display: inline-block;
+        cursor: pointer;
+        padding: 0.7em 1.4em;
+        border-bottom:1px solid var(--gray);
+        user-select: none;
+        margin:0.5em;
+        &.active{
+            border-bottom:2px solid var(--primary);
+        } 
+    }
+    .tabmenu:hover{
+        border-bottom:2px solid var(--primary);
+    }
+} 

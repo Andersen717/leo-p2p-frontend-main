@@ -1,0 +1,41 @@
+.profile {
+	p {
+		display: flex;
+		align-items: center;
+
+		b, img {margin: 0 5px;}
+	}
+	.feedback {
+        padding:1em;
+        border-radius: 8px;
+        &.positive{background-color: #f3fcf3;} 
+        &.negative{background-color: #fff9fa;} 
+    }
+	.tab {
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid var(--lightgray);
+
+		> :first-child {
+			display: flex;
+		}
+		.item {
+			display: flex;
+			align-items: center;
+			padding: 0 20px; 
+			cursor: pointer;
+			position: relative;
+			transition: all 0.2s;
+			&:hover {
+				color: rgb(0, 132, 255);;
+			}
+			&.active {
+				border-bottom: 2px solid rgb(37, 150, 255); 
+				font-weight: 700;
+			}
+		}
+		@media (max-width:576px) {
+			display: block;
+		}
+	}
+}

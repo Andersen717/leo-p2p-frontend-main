@@ -1,0 +1,58 @@
+.profile {
+    
+    label, input[type="text"], input[type="number"], textarea {
+        position: relative;
+		width: 100%;
+		display: block;
+		margin: 10px 0;
+	}
+    font-size: 1.2em;
+    color:var(--dark);
+    .title{
+        color:var(--indigo);
+    }
+    .verify {
+        color: var(--green);
+    }
+    .notverify {
+        color: var(--danger);
+    }
+    .changelink{
+        color:rgb(0, 81, 255);
+        cursor: pointer;
+    } 
+    .profilecard{
+        padding: 1em;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 5px;
+        margin-top: 12px; 
+        .headerbar{
+            padding: 5px;
+            margin-bottom: 10px;
+            color:rgb(34, 34, 34);
+            font-size: 1.2rem;
+            font-weight: 500;
+            &.underline{ 
+                border-bottom: 1px solid gray;
+            }
+        }
+        .profile-row{
+            margin: 20px;
+        }
+        .tabbar{
+            border-bottom: 1px solid gray;
+            display: flex;
+            .tabmenu{ 
+                padding: 10px 20px; 
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+            .tabmenu:hover{
+                color: rgb(0, 132, 255);;
+            }
+            .tabmenu.active{
+                border-bottom: 2px solid rgb(37, 150, 255); 
+            }
+        }
+    }
+}

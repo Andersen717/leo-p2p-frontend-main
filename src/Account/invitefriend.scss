@@ -1,0 +1,32 @@
+.invitefriend{
+    img{
+      width: 100%;
+    }
+    h1 {
+     font-size: 68px;
+      color:rgb(51, 51, 51);
+    }
+    .emptyh1{
+      color: black; 
+      -webkit-text-fill-color: rgb(0, 194, 243); 
+    }
+    .grt-text{    
+      font-size: 68px;
+      color:rgb(51, 51, 51);
+      &.red{
+        background: -webkit-linear-gradient(45deg, rgb(238, 203, 6), rgb(255, 32, 25));    
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+      }
+      &.blue{
+        background: -webkit-linear-gradient(45deg, rgb(16, 164, 250), rgb(5, 1, 243)); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+      } 
+    } 
+    .centerh1{
+      text-align:center;
+      margin-left:20%;
+      width:55%;
+    }
+}

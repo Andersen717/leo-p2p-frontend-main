@@ -1,0 +1,12 @@
+.offer {
+    .tag {
+		display: inline-block;
+		padding: 3px 10px;
+		color: var(--gray);
+		background-color: #eee;
+		border-radius: 5px;
+		&:not(:last-child) {
+			margin-right: 10px;
+		}
+	}
+}

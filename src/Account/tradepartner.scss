@@ -1,0 +1,90 @@
+.tradepartners{ 
+    .title{
+        color:var(--indigo);
+    }
+    .trade-row{
+        display: flex;
+        padding: 1.1em;
+        cursor: pointer; 
+        .trade-col-img{
+            flex: 1;
+        }
+        .trade-col-username{
+            color: rgb(0, 106, 192);
+            flex: 4;
+            .trust{ 
+                position: absolute;
+                color: black;
+                background-color: rgb(240, 255, 242);
+                border: 1px solid green;
+                padding: 0.1em;
+                border-radius: 5px;
+                margin-left: 1em;
+            }
+            .recent{ 
+                position: absolute;
+                color: black;
+                background-color: rgb(255, 232, 228);
+                border: 1px solid rgb(128, 47, 0);
+                padding: 0.1em;
+                border-radius: 5px;
+                margin-left: 1em;
+            }
+            .block{ 
+                position: absolute;
+                color: black;
+                background-color: rgb(247, 228, 255);
+                border: 1px solid rgb(117, 34, 150);
+                padding: 0.1em;
+                border-radius: 5px;
+                margin-left: 1em;
+            }
+            .favourite{ 
+                position: absolute;
+                color: black;
+                background-color: rgb(223, 255, 247);
+                border: 1px solid rgb(0, 102, 128);
+                padding: 0.1em;
+                border-radius: 5px;
+                margin-left: 1em;
+            }
+        }   
+        .trade-col-result{
+            text-align: center;
+            flex:3; 
+            color: green;   
+            &.failure{
+                color:red;
+            }
+        }
+        .trade-col-date{
+            flex: 4;
+            text-align: right;
+        }
+    }
+    .trade-row:hover{
+            background-color: rgb(231, 255, 231);
+    }
+
+    .pagenumbar{
+        display: flex;
+        .pagenation{
+            cursor: pointer;
+            padding: 0.5em 1em;
+            border-radius: 8px;
+            margin-left: 1em;
+            border: 1px solid lightgray;
+            transition: all 0.2s linear;
+            &.active{ 
+                background-color: var(--primary);
+                color: white;
+            }
+        }
+
+        .pagenation:hover{
+            background-color: var(--primary);
+            color: white;
+        }
+    }
+
+}

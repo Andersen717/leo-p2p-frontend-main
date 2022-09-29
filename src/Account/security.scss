@@ -1,0 +1,57 @@
+.security {
+    padding: 1em;
+    .title{ 
+        color: var(--indigo); 
+    }
+    
+    .recommend{
+        border-radius: 5px;
+        color: var(--indigo); 
+        background-color: rgb(238, 238, 238);
+        border: 1px solid gray;
+        padding: 0.3em;
+        margin-left: 0.5em;
+        position: absolute;
+    } 
+
+    .btn-link {
+        font-weight: 400;
+        color: var(--blue);
+        text-decoration: none
+    }
+    .eyeInput{
+        position: relative; 
+    }
+    
+    .activetable{
+        max-height: 400px;
+        overflow-y: auto;
+        .act-head, .act-row{
+            display: flex;
+            width: 100%;
+            padding: 1em;
+            border-bottom: 1px solid lightgray;
+        }
+        .act-col-date{
+            flex: 2;       
+        }
+        .act-col-action{
+            flex: 3;
+        }
+        .act-col-browser{
+            flex: 3;       
+        }
+        .act-col-location{
+            flex: 2;       
+        }
+        .act-col-address{
+            flex: 2;       
+        }
+        .act-col-current{
+            flex: 2;       
+        }
+        .act-col-close{
+                flex: 1;       
+        }
+    } 
+}

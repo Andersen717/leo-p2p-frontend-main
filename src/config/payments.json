@@ -1,0 +1,3686 @@
+{
+	"bank-transfer": {
+		"type": "bank",
+		"bank": "bank.svg",
+		"escrow_fee": 0.5,
+		"acceptable": [],
+		"details": {
+			"description": "Bank Account",
+			"key": "bank_account_id",
+			"name": "BankAccount"
+		}
+	},
+	"domestic-wire-transfer": {
+		"type": "bank",
+		"escrow_fee": 0.5,
+		"acceptable": [],
+		"details": {
+			"description": "Bank Account",
+			"key": "bank_account_id",
+			"name": "BankAccount"
+		}
+	},
+	"faster-payment-system-fps": {
+		"type": "bank",
+		"acceptable": ["hkd", "cny"],
+		"details": {
+			"description": "Bank Account",
+			"key": "bank_account_id",
+			"name": "BankAccount"
+		}
+	},
+	"imps-transfer": {
+		"type": "bank",
+		"acceptable": ["inr"],
+		"details": {
+			"description": "Bank Account",
+			"key": "bank_account_id",
+			"name": "BankAccount"
+		}
+	},
+	"interac-online": {
+		"type": "bank",
+		"acceptable": ["cad"],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"international-wire-transfer-swift": {
+		"type": "bank",
+		"icon": "internationalwire.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"other-bank-transfer": {
+		"type": "bank",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"payid": {
+		"type": "bank",
+		"acceptable": ["aud"],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"sepa": {
+		"type": "bank",
+		"icon": "sepa.png",
+		"acceptable": ["gbp", "bgn", "czk", "dkk", "eur", "gip", "huf", "isk", "nol", "pln", "ron", "sek", "chf"],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"upi-transfer": {
+		"type": "bank",
+		"icon": "upi.png",
+		"acceptable": ["aud"],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"zengin-system": {
+		"type": "bank",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"accountnow-prepaid-card": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"akimbo": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"american-express-card": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"any-creditdebit-card": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bluebird-american-express": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cardcom-transfer": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"discover-credit-cards": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"greendot-card": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"kroger-recharge-card": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"kroger-to-kroger-prepaid": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"mango-card2card": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"myvanilla-prepaid-card": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"paysafecard": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"postepay": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"prepaid-debit-card": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"readydebit-prepaid-card": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"rushcard-prepaid-visa": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"serve-to-serve": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"visa-debitcredit-card": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"walmart-moneycard": {
+		"type": "card",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"amazon-cash": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bancolombia-cash-deposit": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bitcoin-atm": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cardless-cash": {
+		"type": "cash",
+		"icon": "cardlesscash.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cash-by-mail": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cash-deposit-to-bank": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cash-in-person": {
+		"type": "cash",
+		"icon": "cashinperson.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cashiers-check": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"check": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ezremit": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"moneygram": {
+		"type": "cash",
+		"icon": "moneygram.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"oxxo": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"postal-money-order": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ria-money-transfer": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"transfast": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"vodafone-cash-payment": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"western-union": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"xpress-money-service": {
+		"type": "cash",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"biliratryb": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bitcoin-cash-bccbch": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bitcoin-gold-btg": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bitgold": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bitshares-bts": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"brz": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"chainlink": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cnhc": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"credits-cs": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"doc": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"dogecoin-doge": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"eos": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ethereum-classic-etc": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ethereum-eth": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"idrt": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"iota-miota": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"litecoin-ltc": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"namecoin-nmc": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"nano": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"nem": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"neo": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ngnt": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"paxos-gold-paxg": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"paxos-standard-pax": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"peercoin-ppc": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"polkadot-dot": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"qtum": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ronin-axs": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ronin-slp": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"siacoin-sc": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"steem-coin-steem": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"stellar-lumens-xlm": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"stratis-strax": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"tether-usdt": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"tron-trx": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"trueusd-tusd": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"usdc": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"vechain-vet": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"waves-coin-waves": {
+		"type": "crypto",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"adidas-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"airbnb-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"amazon-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"amc-theaters-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"american-apparel-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"american-express-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"apple-gift-card-us-only": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"apple-store-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"applebees-restaurant-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"asos-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"atandt-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"barnes-and-noble-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bed-bath-and-beyond-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"best-buy-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bitrefill-balance-cards": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"blizzard-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bookingcom-gift-cards": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"boost-mobile": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cabelas-e-gift-code": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"calvin-klein-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cashlib-vouchers": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"chilis-restaurant-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"china-telecom-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"coles-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"colourpop-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"costco-cash-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cracker-barrel-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cvs-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"dell-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"delta-air-line-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"dent": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"disney-gift-cards": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"dmm-prepaid-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"dominos-pizza-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"doordash-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"dunkin-donuts-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"eastbay-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ebay-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"egiftercom-code": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"etsy": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"everlane-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"fandango-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"finish-line-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"flexepin-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"flipkart-e-gift-voucher": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"footlocker-sports-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"forever-21-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"freshdirect-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"g2a-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"gamestop-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"gift-cards-miscellaneous-retailers": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"giftcardsnl-redeem-choice-card": {
+		"type": "gift",
+		
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"google-play-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"groupon-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"grubhub-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"handm-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"happy-card-gift-cards": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"home-depot-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"hotelscom-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"hulu-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"hyatt-egift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ihop-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ikea-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"itunes-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"jasons-deli-gift-cards": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"jcpenney-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"jdcom-gift-cards": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"kohls-store-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"lowes-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"lyft-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"macys-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"mastercard-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"microsoft-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"moneypak": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"myer-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"neosurf-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"netflix-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"newegg-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"nike-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"nintendo-eshop-digital-card-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"nordstrom-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"offgamerscom-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"office-depot-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"old-navy-e-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"olive-garden-restaurant-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"onevanilla-visamastercard-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"papa-johns-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"pcs-prepaid-cash-services": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"pizza-hut-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"playstation-network-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"quiksilver-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"razer-gold-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"reebok-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"reloadit-by-netspend": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"restaurant-gift-cards-various-retailers": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"riot-points-league-of-legends": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"roblox-game-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"safeway-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"saks-fifth-avenue-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"sears-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"sephora-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"skype-credits": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"southwest-airlines-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"spotify-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"staples-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"starbucks-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"steam-wallet-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"subway-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"t-mobile-refill": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"target-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"target-visa-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ticket-premium-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ticketmaster-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"twitch-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"uber-eats": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"uber-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ulta-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"united-airlines-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"victorias-secret-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"visa-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"walmart-china-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"walmart-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"walmart-visa-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"whole-foods-market-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"xbox-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"zappos-gift-card": {
+		"type": "gift",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"abra": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"advcash": {
+		"type": "online",
+		"icon": "advcash.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"afriex": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"airline-tickets": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"airpay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"airtel-money": {
+		"type": "online",
+		"icon": "airtel.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"airtm": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"applepay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"astropay-direct": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"aza-finance": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"azimo": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"barter-from-flutterwave": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bhim": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bill-payment": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bitlipa": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bitsika": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bitwallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bkash-e-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bnext": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"bunq-transfer": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"capital-one-360-p2p-payment": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"carbon": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cash-app": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cashu": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cellulant": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"chase-quickpay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"chime-instant-transfers": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"chimpchange-mobile-banking": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"chipper-cash": {
+		"type": "online",
+		"icon": "chippercash.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cib-smart-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"circle-pay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"current-pay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ding-connect": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"dotpay-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"e-zwich": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"easypaisa": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"echeck": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ecocash": {
+		"type": "online",
+		"icon": "ecocash.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ecopayz": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"emq-send": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"epay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"equitel-mobile-money": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"esewa": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"etisalat-cash": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"eversend": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"expresspay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"facebook-messenger-payment": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"fasapay-online-payment": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"flashpay-netspend": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"fliqpay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"fnb-e-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"freecharge": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"gcash": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"getcarbon": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"gobank-money-transfer": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"google-pay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"grabpay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"gonderal": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"hello-paisa": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"hilton-hhonors-points": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"hubtel": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"icard": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ininal": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"interac-e-transfer": {
+		"type": "online",
+		"icon": "interac.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"jazzcash": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"jiomoney": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"kakaopay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"kurepay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"lemonade-finance": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"line-pay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"liqpay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"m-pesa": {
+		"type": "online",
+		"icon": "mpesa.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"mcash-mobile-payment": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"mercado-pago": {
+		"type": "online",
+		"icon": "mercadopago.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"mobikwik-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"mobile-recharge": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"mobilepay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"mobivi": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"moca": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"modo": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"momo": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"monese-online-transfer": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"movii": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"mpayvn": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"mtn-mobile-money": {
+		"type": "online",
+		"icon": "mtn.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"mukuru": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"n26": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"nbe-phone-cash": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"neteller": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"nganluong": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"okpay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ononpay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"opal-transfer": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"orange-money": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"other-online-wallets": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"oxigen-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ozow": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"paga-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"pagadito": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"pago-facil": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"papara": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"payeer": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"paym": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"paymaya-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"payme": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"payoneer": {
+		"type": "online",
+		"icon": "payoneer.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"payoo": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"paypal": {
+		"type": "online",
+		"paypal": "paypal.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"paypower": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"paysendcom": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"paysera-money-transfer": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"payson": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"paytm-online-wallet": {
+		"type": "online",
+		"icon": "paytm.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"payu-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"payzapp": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"perfect-money": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"pesalink": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"phonepe": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"piggyvest": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"pim": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"pingit": {
+		"type": "online",
+		"icon": "pingit.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"pintu": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"plusgirot": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"pockit-paypoint": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"pokerstars": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"popmoney": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"przelewy24": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"qiwi": {
+		"type": "online",
+		"icon": "qiwi.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"qnb-smart-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"qq-pay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"quickteller": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"rapid-transfer": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"rapipago": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"remita": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"remitly": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"revolut": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"rocket-remit": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"safaricom-bonga-points": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"sendwave-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"simbapay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"simple-bank-app": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"skrill": {
+		"type": "online",
+		"icon": "skrill.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"slydepay-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"sofi-money-instant-transfer": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"sofort": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"solidtrust-pay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"spektra": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"square-up": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"straight-talk-reload": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"stripe": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"swish": {
+		"type": "online",
+		"icon": "swish.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"t-kash": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"tarjeta-pago24": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"tarjeta-prex": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"tarjeta-uala": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"tele2": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"tigo-money": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"tigo-pesa": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"tikkie": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"toss-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"tpaga": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"transfergo": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"truemoney": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"ugo-pay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"uhuru": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"unionpay-app": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"uphold": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"vbank": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"venmo": {
+		"type": "online",
+		"icon": "venmo.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"viabuy-card2card-transfer": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"viettelpay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"voguepay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"wapipay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"wari": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"wave-mobile-wallet": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"webmoney": {
+		"type": "online",
+		"icon": "webmoney.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"yandex-money": {
+		"type": "online",
+		"icon": "yandexmoney.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"alipay": {
+		"type": "online",
+		"icon": "alipay.svg",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"wechat-pay": {
+		"type": "online",
+		"icon": "wechat.png",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"wells-fargo-surepay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"wise-transferwise": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"xago": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"xoom-money-transfer": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"yono": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"yoomoney": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"zalopay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"zelle-pay": {
+		"type": "online",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"amazon-wishlist": {
+		"type": "services",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"cars": {
+		"type": "services",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"game-items": {
+		"type": "services",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"gold": {
+		"type": "services",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	},
+	"google-pay-gold-locker-mmtc-pamp": {
+		"type": "services",
+		"acceptable": [],
+		"details": {
+			"description": "",
+			"key": "",
+			"name": ""
+		}
+	}
+}

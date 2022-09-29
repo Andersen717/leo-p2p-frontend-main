@@ -1,0 +1,26 @@
+.mall {
+	label, input[type="text"], input[type="number"], textarea {
+		position: relative;
+		width: 100%;
+		display: block;
+		margin: 10px 0;
+	}
+
+	.bar {
+		display: inline-block;
+		height: 1px;
+		vertical-align: middle;
+		width: 100%;
+		margin-left: 8px;
+		border-top: 1px solid #d8d8d8;
+	}
+	
+	.referral {
+		border:1px solid #d1ecfa;
+
+		> :first-child {
+			background-color: #f4fafd;
+			border-right:1px solid #d1ecfa;
+		}
+	}
+}

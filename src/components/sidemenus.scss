@@ -1,0 +1,25 @@
+.sidemenu {
+	padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #d8d8d8;
+
+	a {
+		padding:0.95rem 1rem;  
+		background-color: white;
+		border-left: 3px solid white;
+		cursor: pointer; 
+		transition: all .15s linear;
+		user-select: none;
+		display: flex;
+		align-items: center;
+		&.active{
+			background-color: rgb(225, 245, 255);
+			border-left: 3px solid rgb(44, 178, 255);
+		}
+		&:hover{
+			background-color: rgb(242, 251, 255);
+			border-left: 3px solid rgb(179, 227, 255);
+		}
+	
+	}
+}

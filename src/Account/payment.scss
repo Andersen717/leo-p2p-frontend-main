@@ -1,0 +1,22 @@
+.developer {
+    padding: 1em;
+    .title{ 
+        color: var(--indigo); 
+    }
+    
+    .addkey {
+        display: flex;
+        justify-content: center;
+        > div {width: 70%;}
+        @media (max-width:576px) {
+            > div {width: 100%;}
+        
+        }
+    } 
+    .btn-link {
+        font-weight: 400;
+        color: var(--primary);
+        text-decoration: none
+    }
+
+}

@@ -1,0 +1,22 @@
+[
+    "cash-in-person",
+	"cash-only",
+	"e-codes-accepted",
+	"e-gift-cards",
+	"external-payment",
+	"friends-and-family",
+	"invoices-are-accepted",
+	"no-negotiation",
+	"no-receipt-needed",
+	"no-third-parties",
+	"no-verification-needed",
+	"online-payments",
+	"photo-id-required",
+	"physical-cards",
+	"pin-required",
+	"receipt-required",
+	"same-bank-only",
+	"up-to-100-face-value",
+	"verified-paypal-only",
+	"with-receipt"
+]

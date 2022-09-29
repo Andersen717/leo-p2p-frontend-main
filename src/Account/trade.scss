@@ -1,0 +1,96 @@
+.tradehistory{  
+    .markType{
+        padding:0.2em 0.7em;
+        border-radius: 50%;
+        background-color: var(--green);
+        position: relative;
+        color: white;
+        &.bitcoin{
+            background-color: var(--yellow);
+        }
+    }
+    .leftNavPanel{ 
+        background-color: rgb(245, 245, 245);
+        padding: 0.5em 1.5em; 
+    }
+    .containerPanel
+    { 
+        padding: 0.3em;   
+    }
+    .yellow{
+        color:rgb(143, 45, 0);
+    }
+    .dang{
+        color:midnightblue; 
+    }
+    .check{
+        margin: 1em;
+    }
+    .historyitem{
+        border: 1px solid lightgray;
+        padding: 1em;
+        margin: 0 1em;
+    }
+    
+    .right{
+        float:right;
+    }
+
+    .alert{
+        border-radius: 5px;
+        padding: 1em;
+        color: black;
+        background-color: rgb(236, 235, 235);
+        &.send{
+            background-color: rgb(205, 214, 169)!important;
+        }
+        &.receive{
+            background-color: rgb(166, 235, 231);
+        }
+    }
+
+    .green{
+        color: green;
+    }
+    .indigo{
+        color:indigo;
+    }
+    .spanCnt{
+        background-color: var(--white);
+        border-radius: 3px;
+        color:green;
+        border:1px solid var(--green);
+        font-size: 12px!important;
+        padding: 0.5em; 
+        display: inline-block; 
+        margin-left: 1em;
+        right: 0;
+        top:-1em;
+        &.disabled{
+            background-color: rgb(224, 224, 224);
+            color: black;
+            border:none;
+        }
+    }
+    .pagenumbar{
+        display: flex;
+        margin: 1em;
+        .pagenation{
+            cursor: pointer;
+            padding: 0.5em 1em;
+            border-radius: 8px;
+            margin-left: 1em;
+            border: 1px solid lightgray;
+            transition: all 0.2s linear;
+            &.active{ 
+                background-color: var(--primary);
+                color: white;
+            }
+        }
+
+        .pagenation:hover{
+            background-color: var(--primary);
+            color: white;
+        }
+    }
+}

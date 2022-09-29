@@ -1,0 +1,69 @@
+.trade {
+    &.frame {
+        padding: 0
+    }
+    .head {
+        display: flex;
+        background-color: #eee;
+		padding: 15px;
+		
+		& > div {
+			display: flex;
+			flex-direction: column;
+		}
+    }
+	.body {
+		> :not(:first-child) {
+			border-top: 1px solid #eee
+		}
+	}
+	.tr {
+		display: flex;
+		padding: 15px;
+        &> div  {
+            display: flex;
+			flex-direction: column;
+        }
+	}
+
+	.l15 {
+		height: 25px;
+	}
+	.trust {
+		display: flex;
+		align-items: center;
+		font-size: 80%;
+		padding: 0 4px;
+		border: 1px solid green;
+		color: green;
+	}
+	.account {
+		width: 200px;
+		display: flex;
+		> div > :last-child  {
+			padding-left: 10px;
+        }
+	}
+	.payment {
+		flex: 1 1 auto;
+		> :last-child  {
+			flex: 1 1 auto;
+            display: flex;
+			align-items: flex-end;
+        }
+	}
+	@media (max-width: 768px) {
+		.tr {
+			flex-direction: column;
+		}
+		.head {
+			display: none;
+		}
+		.account {
+			width: 100%;
+		}
+		.payment {
+			width: 100%;
+		}
+	}
+}

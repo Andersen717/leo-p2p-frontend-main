@@ -1,0 +1,91 @@
+.Vendor{
+    margin-top: 80px; 
+    #tabContainer1{
+        display: block;
+    }
+    #tabContainer2{
+        display: block;
+    }
+    .tabbar{
+       display: block; 
+    }
+    .tabmenu{ 
+        display: inline-block;
+        cursor: pointer;
+        padding: 0.9em 1.4em;
+        border-bottom:1px solid var(--gray);
+        user-select: none;
+        margin:0.8em;
+        &.active{
+            border-bottom:2px solid var(--primary);
+        } 
+    }
+    .tabmenu:hover{
+        border-bottom:2px solid var(--primary);
+    }
+    .alertBox{
+        background-color:rgb(255, 253, 242);
+        border:1px solid rgb(224, 220, 163);
+        padding:1em;
+        border-radius: 5px; 
+    }
+    .closeBtn{
+        cursor: pointer;
+        font-size: 2em;
+    }
+    
+    .spanCnt{
+        background-color: rgb(241, 252, 255);;
+        border-radius: 3px;
+        color:rgb(36, 36, 36);   
+        border:1px solid var(--primary);
+        font-size: 12px!important;
+        padding: 0.2em;
+        margin: 1em;
+        display: inline-block;
+    }
+    .btc-bar{
+        height: 5px;
+        width: 100%; 
+        background-color: green; 
+        border-radius: 5px; 
+        position: absolute;
+    }
+    
+    .floatRight{
+        float: right;
+    }
+    .vendor-row{
+        display: flex;  
+        .markType{
+            padding:0.2em 0.7em;
+            border-radius: 50%;
+            background-color: var(--green);
+            position: relative;
+            color: white;
+            &.bitcoin{
+                background-color: var(--yellow);
+            }
+        }
+    }
+    .yellow{
+        color:rgb(143, 45, 0);
+    }
+    .dang{
+        color:midnightblue;
+    }
+    .vendor-item{
+        border: 1px solid lightgray;
+        padding: 1em;
+    }
+    .leftborder{
+        border-left:1px solid lightgray
+    }
+    .nolist{
+        padding: 0.6em;
+        border-radius: 50%;
+        border:1px solid green;
+        background-color: rgb(241, 255, 241);
+        margin: 1em;
+    }
+} 

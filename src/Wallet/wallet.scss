@@ -1,0 +1,97 @@
+.wallet{  
+    #balancePanel{
+        display: none;
+    }
+    #addressPanel{
+        display: block;
+    }
+    .tabbar{
+        display: block; 
+        border-bottom: 1px solid gray;
+        
+     }
+     .tabmenu{ 
+         display: inline-block;
+         cursor: pointer;
+         padding: 0.7em 1.4em; 
+         user-select: none; 
+         &.active{
+             border-bottom:2px solid var(--primary);
+         } 
+     }
+     .tabmenu:hover{
+         border-bottom:2px solid var(--primary);
+     }
+     .m0{
+         margin: 0;
+     }
+     .p0{
+         padding: 0;
+     }
+     .wallet-row{
+        margin: 1em;
+        box-shadow: 1px 1px 3px   rgb(199, 194, 194);
+        padding: 1em 0 0;
+     }
+     .text-right{
+         text-align: right;
+     }
+    .right
+     {
+         float: right;
+     }
+    .spanCnt{
+        background-color: var(--white);
+        border-radius: 3px;
+        color:green;
+        border:1px solid var(--green);
+        font-size: 12px!important;
+        padding: 0.2em; 
+        display: inline-block; 
+        margin:0.5em;
+        margin-left: 1em;
+        right: 0;
+        top:-1em;
+        &.disabled{
+            background-color: rgb(224, 224, 224);
+            color: black;
+            border:none;
+        }
+    }
+    .modal{
+        display: block; 
+        .overlay{
+            z-index: 1025;
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            left:0;
+            top:0;
+            background-color: rgba(0, 0, 0, 0.452);
+            
+        }
+        .closeBtn{
+            position: absolute;
+            right: 10px;
+            top:10px;
+            font-size: 1.2em;
+        }
+        .modalContainer{
+            background-color: white;
+            border-radius: 5px;
+            padding: 1em;
+            z-index: 1026;
+            box-shadow: 1px 1px 1px gray;
+            min-height: 350px;
+            position: fixed;
+            top:100px;
+            left:20%;
+            &.send{
+                width: 60%;
+            }
+            &.receive{
+                width: 40%;
+            }
+        }
+    }
+}

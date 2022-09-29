@@ -1,0 +1,18 @@
+{
+	"default": "btc",
+	"coins": {
+		"btc": {
+			"slug": "bitcoin"
+		},
+		"eth": {
+			"slug": "ethereum"
+		},
+		"usdt": {
+			"slug": "tether"
+		},
+		"bnb": {
+			"slug": "binance-coin"
+			
+		}
+	}
+}
